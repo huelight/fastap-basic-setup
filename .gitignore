@@ -1,8 +1,25 @@
+# Ignore environment files
 .env
-.dockerignore
 app/.env
+
+# Ignore Docker-related files
+.dockerignore
+
+# Ignore virtual environment and dependencies
 app/venv
 app/local_dev.db
-app/.idea
-.idea
+
+# Ignore IDE configuration files
+.idea/
+app/.idea/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Git directory (if there's a .git folder inside any subdirectories)
 .git
+
+# Ignore SQLite database files (if used in development)
+*.sqlite3
