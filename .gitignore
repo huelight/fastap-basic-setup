@@ -1,0 +1,8 @@
+.env
+.dockerignore
+app/.env
+app/venv
+app/local_dev.db
+app/.idea
+.idea
+.git
